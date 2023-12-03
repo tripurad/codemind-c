@@ -6,16 +6,10 @@ int main()
     for(i=1;i<=n;i++)
     {
         if(n%i==0)
-        {
-            c=c+1;
-        }
+        c=c+1;
     }
     if(c==2)
-    {
-        printf("Prime");
-    }
+    printf("Prime");
     else
-    {
-        printf("Not Prime");
-    }
+    printf("Not Prime");
 }
